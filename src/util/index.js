@@ -84,23 +84,21 @@ exports.checkInstallYarn=()=>{
     return new Promise(async (resolve) => {
         try {
             await runCmd('yarn --version');
-        } catch (error) {
-            reject(error)
-        } finally {
             resolve("yarn")
-        }
+        } catch (error) {
+            console.log("捕获到错误");
+            resolve("yarn error")
+        } 
     });
 }
 
 exports.checkInstallCnpm=()=>{
     return new Promise(async (resolve) => {
         try {
-            console.log("aaaa");
             await runCmd('cnpm --version');
-        } catch (error) {
-            reject(error)
-        } finally {
             resolve("cnpm")
-        }
+        } catch (error) {
+            resolve("cnpm error")
+        } 
     });
 }
