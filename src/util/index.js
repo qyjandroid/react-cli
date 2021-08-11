@@ -28,12 +28,12 @@ exports.copyFiles = async (tempPath, targetPath, excludes = []) => {
             await fs.removeSync(path.resolve(targetPath, file))
         ));
     }
-}
+};
 
 // 判断是否是函数
 const isFunction = (val) => {
     return typeof val === 'function'
-}
+};
 
 exports.isFunction = isFunction;
 
@@ -48,7 +48,7 @@ exports.parseCmdParams = (cmd) => {
         }
     })
     return resOps
-}
+};
 
 // 运行cmd命令
 const runCmd = (cmd) => {
@@ -58,7 +58,7 @@ const runCmd = (cmd) => {
             return resolve(...arg)
         })
     })
-}
+};
 
 exports.runCmd = runCmd;
 
@@ -78,7 +78,7 @@ exports.getGitUser = () => {
             resolve(user)
         }
     });
-}
+};
 
 exports.checkInstallYarn=()=>{
     return new Promise(async (resolve) => {
@@ -86,11 +86,10 @@ exports.checkInstallYarn=()=>{
             await runCmd('yarn --version');
             resolve("yarn")
         } catch (error) {
-            console.log("捕获到错误");
             resolve("yarn error")
         } 
     });
-}
+};
 
 exports.checkInstallCnpm=()=>{
     return new Promise(async (resolve) => {
@@ -101,4 +100,4 @@ exports.checkInstallCnpm=()=>{
             resolve("cnpm error")
         } 
     });
-}
+};
