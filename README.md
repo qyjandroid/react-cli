@@ -58,7 +58,7 @@ react-cli
 npm install quanyj-react-cli -g
 ```
 
-## Use
+## Usage
 
 ```sh
 react-cli create 项目名称 -f
