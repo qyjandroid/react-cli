@@ -1,7 +1,25 @@
-# react-cli
-react项目脚手架，与react-project-tmp 配合使用
+<h1 align="center">Welcome to quanyj-react-cli 👋</h1>
+<p>
+  <a href="https://www.npmjs.com/package/quanyj-react-cli" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/quanyj-react-cli.svg">
+  </a>
+  <img src="https://img.shields.io/badge/npm-%3E%3D6.14.6-blue.svg" />
+  <img src="https://img.shields.io/badge/node-%3E%3D12.18.4-blue.svg" />
+  <a href="#" target="_blank">
+    <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" />
+  </a>
+</p>
 
-### 项目目录结构
+> react项目脚手架
+
+### 🏠 [Homepage](https://github.com/qyjandroid/react-cli)
+
+## Prerequisites
+
+- npm >=6.14.6
+- node >=12.18.4
+  
+## 项目目录结构
 ```markdown
 react-cli
 ├──  src
@@ -16,7 +34,7 @@ react-cli
 └──  README.md
 ```
 
-### tips
+## Tips
 
 - 项目流程：
 
@@ -34,15 +52,32 @@ react-cli
 
 - 安装项目依赖
   
+## Install
 
-### 安装
-
-```js
-    npm install quanyj-react-cli -g
+```sh
+npm install quanyj-react-cli -g
 ```
 
-### 使用
+## Use
 
-```js
-    react-cli create 项目名称 -f
+```sh
+react-cli create 项目名称 -f
 ```
+
+## Author
+
+👤 **quanyj <qyjandroid@163.com>**
+
+* 掘金: https://juejin.cn/user/923245496789255
+* Github: [@qyjandroid](https://github.com/qyjandroid)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/qyjandroid/react-cli/issues). You can also take a look at the [contributing guide](https://github.com.cnpmjs.org/qyjandroid/react-cli/blob/master/CONTRIBUTING.md).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
