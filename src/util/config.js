@@ -19,4 +19,4 @@ exports.InquirerConfig = {
   }
   
   // 远程Repo地址
-  exports.RepoPath = 'github:qyjandroid/react-project-tmp#main'
+  exports.RepoPath = 'github:qyjandroid/react-project-template#main'

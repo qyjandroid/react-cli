@@ -1,6 +1,6 @@
 {
     "name": "quanyj-react-cli",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "react项目脚手架",
     "main": "index.js",
     "bin": {
